@@ -1,5 +1,5 @@
 age=34
-name='Kristina'
+name='Iryna'
 
 
 said = "She said 'Hello'"

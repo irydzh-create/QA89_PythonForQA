@@ -1,0 +1,101 @@
+age=34
+name='Kristina'
+
+
+said = "She said 'Hello'"
+print(said)
+
+my_string='''This is multy-line string.
+We've wrapped the text to the next line'''
+print(my_string)
+
+raw_string = r"C:\Users\7428896\Desktop\AIT\QA89_PythonForQA"
+print(raw_string)
+s1 = "Hello Iryna"
+print(type(s1))
+s2 = 5
+print(type(s2))
+s3 = True
+print(type(s3))
+s4 = 2.0
+print(type(s4))
+s5 = 'Zeleno'
+s6 = 'glazka'
+s7 =  s5 + s6
+print(s7)
+
+
+#join()
+words = ["Hello", "World", "and", "Python"]
+res = " ".join(words)
+print(res)
+
+st="ab"*7
+print(st)
+st1=35*"*"
+print(st1)
+
+s1 = 'Iry Dzhelialova'
+s2 = 'Iryna'
+
+if s2 in s1:
+    print("User Iryna is in a DB")
+else:
+    print("User Iryna is not in a DB")
+
+st="a"
+st = 'a'
+if st == 'a' or st == 'b' or st == 'c' or st == 'd':
+    print("Yes")
+
+if st in 'abcd':
+    print("Yes")
+
+#********************************
+#len()
+ln = len('Zelenoglazka')
+print(ln)
+s1="Zelenoglazka"
+print(len(s1))
+#P Y T H O N
+#0 1 2 3 4 5
+st='Python'
+print(st[0])
+print(st[1])
+print(st[2])
+print(st[3])
+print(st[4])
+print(st[5])
+
+
+print(35*"=")
+#значок минус индекс -1 означает
+# запуск вивода интекса с конца строки
+#-6 -5 -4 -3 -2 -1
+#P  Y  T  H  O  N
+st = 'Python'
+
+print(st[-1])
+print(st[-2])
+print(st[-3])
+print(st[-6])
+
+#****************************
+#my_string[start:end]
+st = 'Python'
+print(st[0:3])
+print(st[2:5])
+print(st[6:4])
+
+my_string="Hello world"
+every_second_char=my_string[::2]
+print(every_second_char)
+reversed_string=my_string[::-3]#шаг среза
+print(reversed_string)
+
+
+from_second = my_string[1::2]
+print(from_second)
+
+my_substring = my_string[1:10:3]
+print(my_substring)

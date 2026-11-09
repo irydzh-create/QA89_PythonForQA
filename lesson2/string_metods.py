@@ -73,3 +73,13 @@ print(text1.replace("Python","Python and Coffee"))
 text="2026-07-03"
 new_text = text.replace("-", "/")
 print(new_text)
+
+
+
+
+попробуй: s = 'Ⅻ'
+print(s.isalnum())
+print(s.isnumeric())
+s = 'XII'
+print(s.isalnum())
+print(s.isnumeric())

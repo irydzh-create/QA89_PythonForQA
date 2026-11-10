@@ -24,3 +24,5 @@ result="Adult" if age>=18 else "Child"
 print(result)
 
 #***************************************
+
+

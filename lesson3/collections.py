@@ -73,3 +73,5 @@ names.sort(key=len)#сравни имена по кол символов
 print(names)
 
 
+
+

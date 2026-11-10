@@ -40,3 +40,36 @@ else:
 print(len(fruits))
 max(fruits)
 print(max(fruits))
+
+
+numbers=[12,56,94,6]
+print(max(numbers))
+print(min(numbers))
+
+res=sorted(numbers)
+print(res)
+print(numbers)
+
+print(sorted(numbers,reverse=True))
+print(sorted(fruits))
+print(sorted(fruits,reverse=True))
+
+word = 'python'
+print(sorted(word))
+result= ''.join(sorted(word))
+print(result) #в алфавитном порядке отсотрировал hnopty
+
+names=['Aleks', 'Kristina','Bob','Tom']
+print(sorted(names)) #po alfavity Imena sort
+print(sorted(names,key=len))#po dline
+#sorted -  функц берет кол и возвразает новую soydaet new list no ne menyaet
+# sort - метод списка только листа , меняет список
+
+#по алфавиту
+names.sort()#меняет список и возвращает нан
+print(names)
+
+names.sort(key=len)#сравни имена по кол символов
+print(names)
+
+

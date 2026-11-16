@@ -17,4 +17,20 @@ response={
         'name':'Kris'
     }
 }
-print(response['user']['name'])
+print(response['user']['name']
+
+
+#API
+
+contact = {
+    "id":12,
+    "name":"Anna",
+    "email":"anna@gm.com"
+}
+req_field = {
+    "id",
+    "name",
+    "email"
+}
+for field in req_field:
+    assert field in contact, f"В ответе отсутствует поле{field}"
